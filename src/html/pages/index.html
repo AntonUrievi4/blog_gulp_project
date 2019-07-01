@@ -1,35 +1,33 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="./img/my_favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
-  <title>Gulp start pattern - стартовый gulp шаблон от DL Academy</title>
+  <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&amp;display=swap&amp;subset=cyrillic">
+  <title>Блог Антона Пузакова</title>
 </head>
 <body>
   @@include('./../components/header.html')
-  <div class="start-block">
+  <div class="info-block">
     <div class="container">
-      <div class="start-block__content">
-
-        <h1 class="title-block title-block_one">Стартовая страница</h1>
-        <h2 class="title-block title-block_two">Добро пожаловать на стартовый шаблон написанный с помощью Gulp от DL Academy</h2>
-
-        <div class="parallax-card">
-
-          <div class="parallax-card__wrapper-img">
-            <img class="parallax-card__img" src="./img/kt.jpg" alt="Картинка кактуса">
-          </div>
-
-          <div class="parallax-card__description">
-            <p class="parallax-card__paragraph">Кактус маминой подруги</p>
-            <p class="parallax-card__paragraph">Не нужно поливать и никогда не сохнет</p>
-          </div>
-          
-        </div>
-
+      <div class="info-block__content">
+        <h1 class="info-block__title title">Краткая информация обо мне</h1>
+        <p class="info-block__text">Меня зовут Антон! Люблю скороговорки. Карл у Клары украл кораллы, а Клара у Карла украла кларнет.</p>
       </div>
     </div>
   </div>
+  <div class="contacts">
+    <div class="container">
+      <div class="contacts__content">
+        <div class="contacts__title title">Контакты</div>
+        <div><a class="contacts-links__link" href="http://vk.com" target="_blank">Ссылка на VK</a></div>
+        <div><a class="contacts-links__link" href="https://www.instagram.com/?hl=ru" target="_blank">Ссылка на Instagram</a></div>
+        <div><a class="contacts-links__link" href="tel:89084082845">+7(908)4082845</a></div>
+      </div>
+    </div>
+  </div>
+  @@include('./../components/footer.html')
 </body>
 <script src="script.js"></script>
 </html>
