@@ -6,6 +6,10 @@
 .info-block__content {
   display: flex;
   align-items: flex-start;
+.image {
+  width: 260px;
+  padding: 0;
+}
 }
 .info-block__title {
   padding: 50px 0;
@@ -25,7 +29,7 @@
   text-transform: uppercase;
 }
 .contacts {
-  background: #23374F;
+  background: #FFE01B;
 }
 .contacts__content {
   text-align: center;
