@@ -1,9 +1,18 @@
-.footer {
-    background: #45B7E3;
+.footer__content {
+    display: flex;
   }
   .footer__copyright {
     font-weight: 300;
     text-align: right;
-    color: #ffffff;
-    padding: 23px 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .footer-links__link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    color: #000;
+    padding-right: 19px;
   }

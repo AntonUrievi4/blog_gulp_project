@@ -1,19 +1,41 @@
+.container {
+  max-width: 1220px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 .info-block {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/Rectangle.png);
   background-size: auto, cover;
   color: #ffffff;
 }
+.info-block__content {
+  padding: 50px 0;
+  margin: 0;
+}
 .info-block__items {
   display: flex;
   justify-content: space-around;
 }
+.info-block__foto {
+  margin-right: 15px;
+}
+.info-block__box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.info-block__button {
+  background-color: #FFE01B;
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 127px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+}
 .image {
   width: 260px;
   padding: 0;
-}
-.info-block__title {
-  padding: 50px 0;
-  margin: 0;
 }
 .info-block__text {
   margin: 0;
@@ -28,17 +50,27 @@
   line-height: 72px;
   text-transform: uppercase;
 }
-.myblog__content {
+.myblog {
   background: #F2F2F2;
 }
-
+.myblog__content {
+  padding: 50px 0;
+}
+.myblog__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
 .myblog__flexbox {
-  display: flex;
-  justify-content: space-around;
-
-  &_box {
-    margin: 10px;
-  }
+  /*display: flex;
+  justify-content: space-around;*/
+  padding-bottom: 50px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+}
+.myblog__box {
+  position: relative;
+  margin-bottom: 20px;
 }
 h2 {
   font-family: Open Sans Condensed;
